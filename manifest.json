@@ -1,0 +1,10 @@
+{
+  "name": "DDR to arrow keys",
+  "description": "Maps DDR keys to arrow keys",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [{
+     "matches": ["https://*.uploads.ungrounded.net/*"],
+     "js": ["script.js"]
+  }]
+}
